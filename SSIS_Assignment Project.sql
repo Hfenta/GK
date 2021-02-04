@@ -4,10 +4,12 @@ Create DataBase SSISProject
 Drop DataBase SSISProject
 USE MASTER
 GO
+
 IF EXISTS(SELECT name FROM sys.databases   WHERE name = 'SSIS_Assignment3')
 	DROP DATABASE SSIS_Assignment3
 CREATE DATABASE SSIS_Assignment3
 GO
+
 USE SSIS_Assignment3
 GO
 
